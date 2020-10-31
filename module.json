@@ -8,8 +8,8 @@
 	"minimumCoreVersion": "0.7.4",
 	"compatibleCoreVersion": "0.7.5",
 	"url": "https://www.patreon.com/LootTavern",
-	"manifest": "https://raw.githubusercontent.com/MrVauxs/Free-Loot-Tavern-Compendium/master/module.json",
-	"download": "https://github.com/MrVauxs/Free-Loot-Tavern-Compendium/archive/master.zip",
+	"manifest": "https://raw.githubusercontent.com/MrVauxs/Free-Loot-Tavern-Compendium/main/module.json",
+	"download": "https://github.com/MrVauxs/Free-Loot-Tavern-Compendium/archive/main.zip",
 	"packs": [
 		{
 			"name": "free-loot-taverns-magic-item-vault",
