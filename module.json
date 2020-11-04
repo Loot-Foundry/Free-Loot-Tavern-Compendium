@@ -1,16 +1,24 @@
 {
 	"name": "free-loot-tavern-compendium",
 	"title": "Loot Tavern's Magic Item Vault",
-	"description": "A collection of magic equipment of various themes from Loot Tavern by Agginmad, updated bimonthly with new items and themes.",
+	"description": "A collection of magic equipment of various themes from Loot Tavern by Agginmad, updated bimonthly with new items and themes. Created by MrVauxs.",
 	"systems": ["dnd5e"],
 	"author": "Agginmad, MrVauxs",
-	"version": "1.4.1",
+	"version": "1.4.2",
 	"minimumCoreVersion": "0.7.4",
 	"compatibleCoreVersion": "0.7.5",
 	"url": "https://www.patreon.com/LootTavern",
 	"manifest": "https://raw.githubusercontent.com/MrVauxs/Free-Loot-Tavern-Compendium/main/module.json",
 	"download": "https://github.com/MrVauxs/Free-Loot-Tavern-Compendium/archive/main.zip",
 	"packs": [
+		{
+			"name": "free-loot-tavern-bestiary",
+			"module": "free-loot-tavern-compendium",
+			"label": "Loot Tavern Bestiary",
+			"system": "dnd5e",
+			"path": "./compendiums/free-loot-tavern-bestiary.db",
+			"entity": "Actor"
+		},
 		{
 			"name": "free-loot-taverns-magic-item-vault",
 			"module": "free-loot-tavern-compendium",
