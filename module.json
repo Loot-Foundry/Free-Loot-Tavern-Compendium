@@ -1,10 +1,28 @@
 {
 	"name": "free-loot-tavern-compendium",
-	"title": "Loot Tavern's Magic Item Vault",
+	"title": "Free Loot Tavern's Magic Item Vault",
 	"description": "A collection of magic equipment of various themes from Loot Tavern by Agginmad, updated bimonthly with new items and themes. Created by MrVauxs.",
 	"systems": ["dnd5e"],
 	"author": "Agginmad, MrVauxs",
-	"version": "1.6.1",
+	"authors": [
+		{
+			"name": "Agginmad",
+			"url": "https://www.patreon.com/LootTavern",
+			"discord": "Aggi#5287",
+			"twitter": "@loottavern",
+			"patreon": "LootTavern",
+			"reddit": "u/Agginmad"
+		},
+		{
+			"name": "MrVauxs",
+			"discord": "MrVauxs#8622",
+			"twitter": "@ThatVauxs",
+			"patreon": "mrvauxs",
+			"reddit": "u/MrVauxs"
+		}
+	],
+	"manifestPlusVersion": "1.0.0",
+	"version": "1.7.0",
 	"minimumCoreVersion": "0.7.4",
 	"compatibleCoreVersion": "0.7.9",
 	"url": "https://www.patreon.com/LootTavern",
@@ -14,7 +32,7 @@
 		{
 			"name": "free-loot-tavern-bestiary",
 			"module": "free-loot-tavern-compendium",
-			"label": "Loot Tavern Bestiary",
+			"label": "Free Loot Tavern Bestiary",
 			"system": "dnd5e",
 			"path": "./compendiums/free-loot-tavern-bestiary.db",
 			"entity": "Actor"
@@ -22,7 +40,7 @@
 		{
 			"name": "free-loot-taverns-magic-item-vault",
 			"module": "free-loot-tavern-compendium",
-			"label": "Loot Tavern's Magic Item Vault",
+			"label": "Free Loot Tavern's Magic Item Vault",
 			"system": "dnd5e",
 			"path": "./compendiums/free-loot-taverns-magic-item-vault.db",
 			"entity": "Item"
@@ -31,9 +49,15 @@
 			"name": "free-loot-tavern-variant-compendium",
 			"module": "free-loot-tavern-compendium",
 			"system": "dnd5e",
-			"label": "Loot Tavern Variant Compendium",
+			"label": "Free Loot Tavern Variant Compendium",
 			"path": "./compendiums/free-loot-tavern-variant-compendium.db",
 			"entity": "Item"
+		}
+	],
+	"media": [
+		{
+			"type": "cover",
+			"url": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_1/asset/loot-tavern-banner-2020-11-04.jpg"
 		}
 	]
 }
