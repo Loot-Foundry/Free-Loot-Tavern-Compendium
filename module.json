@@ -58,6 +58,10 @@
 		{
 			"type": "cover",
 			"url": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_1/asset/loot-tavern-banner-2020-11-04.jpg"
+		},
+		{
+			"type": "icon",
+			"url": "https://i.imgur.com/AbWrE4zh.jpg"
 		}
 	]
 }
