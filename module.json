@@ -4,7 +4,7 @@
 	"description": "<p>A collection of ready-to-use beautifully illustrated Magic items from the Loot Tavern.</p><p>This compilation contains all 20+ themes from Loot Tavern, each containing <b>2 items</b> each, plus their respective brochures.</p><div><p>It is highly recommended to use modules such as <a href=\"https://foundryvtt.com/packages/compendium-folders\">Compendium Folders</a> and <a href=\"https://foundryvtt.com/packages/compendium-browser\">Compendium Browser</a> for sorting and browsing through the themes!</p>",
 	"systems": ["dnd5e"],
 	"author": "Agginmad, MrVauxs",
-	"version": "1.1.0",
+	"version": "2.1.0",
 	"authors": [
 		{
 			"name": "Agginmad",
@@ -32,8 +32,8 @@
 	"manifestPlusVersion": "1.0.0",
 	"minimumCoreVersion": "0.7.10",
 	"compatibleCoreVersion": "0.8.9",
-	"manifest": "https://raw.githubusercontent.com/MrVauxs/Free-Loot-Tavern-Compendium/main/module.json", 
-	"download": "https://github.com/MrVauxs/Free-Loot-Tavern-Compendium/archive/main.zip",
+	"manifest": "https://loottavern.com/Foundry%20packs/NEW/magic-items-vol0-free-for-all/magic-items-vol0-free-for-all/module.json", 
+	"download": "https://loottavern.com/Foundry%20packs/NEW/magic-items-vol0-free-for-all/magic-items-vol0-free-for-all.zip",
 	"url": "https://www.patreon.com/LootTavern",
 	"packs": [
 		{
