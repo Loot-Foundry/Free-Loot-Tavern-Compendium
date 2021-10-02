@@ -1,9 +1,10 @@
 {
-	"name": "free-loot-tavern-compendium",
-	"title": "Free Loot Tavern's Magic Item Vault",
-	"description": "A collection of magic equipment of various themes from Loot Tavern by Agginmad, updated bimonthly with new items and themes. Created by MrVauxs.",
+	"name": "magic-items-vol0-free-for-all",
+	"title": "Magic Items Vol.0 Free For All",
+	"description": "<p>A collection of ready-to-use beautifully illustrated Magic items from the Loot Tavern.</p><p>This compilation contains all 20+ themes from Loot Tavern, each containing <b>2 items</b> each, plus their respective brochures.</p><div><p>It is highly recommended to use modules such as <a href=\"https://foundryvtt.com/packages/compendium-folders\">Compendium Folders</a> and <a href=\"https://foundryvtt.com/packages/compendium-browser\">Compendium Browser</a> for sorting and browsing through the themes!</p>",
 	"systems": ["dnd5e"],
 	"author": "Agginmad, MrVauxs",
+	"version": "1.1.0",
 	"authors": [
 		{
 			"name": "Agginmad",
@@ -29,46 +30,35 @@
 		}
 	],
 	"manifestPlusVersion": "1.0.0",
-	"version": "1.10.1",
-	"minimumCoreVersion": "0.7.4",
+	"minimumCoreVersion": "0.7.10",
 	"compatibleCoreVersion": "0.8.9",
-	"url": "https://www.patreon.com/LootTavern",
-	"manifest": "https://raw.githubusercontent.com/MrVauxs/Free-Loot-Tavern-Compendium/main/module.json",
+	"manifest": "https://raw.githubusercontent.com/MrVauxs/Free-Loot-Tavern-Compendium/main/module.json", 
 	"download": "https://github.com/MrVauxs/Free-Loot-Tavern-Compendium/archive/main.zip",
+	"url": "https://www.patreon.com/LootTavern",
 	"packs": [
 		{
-			"name": "free-loot-tavern-bestiary",
-			"module": "free-loot-tavern-compendium",
-			"label": "Free Loot Tavern Bestiary",
+			"name": "magic-items-vol0-free-for-all",
+			"module": "magic-items-vol0-free-for-all",
+			"label": "Magic Items Vol.0 Free For All",
 			"system": "dnd5e",
-			"path": "./compendiums/free-loot-tavern-bestiary.db",
+			"path": "./compendiums/magic-items-vol0-free-for-all.db",
+			"entity": "Item"
+		},
+		{
+			"name": "bestiary-vol0-free-for-all",
+			"module": "magic-items-vol0-free-for-all",
+			"label": "Bestiary Vol.0 Free For All",
+			"system": "dnd5e",
+			"path": "./compendiums/bestiary-vol0-free-for-all.db",
 			"entity": "Actor"
 		},
 		{
-			"name": "free-loot-taverns-magic-item-vault",
-			"module": "free-loot-tavern-compendium",
-			"label": "Free Loot Tavern's Magic Item Vault",
+			"name": "variant-items-vol0-free-for-all",
+			"module": "magic-items-vol0-free-for-all",
+			"label": "Variant Items Vol.0 Free For All",
 			"system": "dnd5e",
-			"path": "./compendiums/free-loot-taverns-magic-item-vault.db",
+			"path": "./compendiums/variant-items-vol0-free-for-all.db",
 			"entity": "Item"
-		},
-		{
-			"name": "free-loot-tavern-variant-compendium",
-			"module": "free-loot-tavern-compendium",
-			"system": "dnd5e",
-			"label": "Free Loot Tavern Variant Compendium",
-			"path": "./compendiums/free-loot-tavern-variant-compendium.db",
-			"entity": "Item"
-		}
-	],
-	"media": [
-		{
-			"type": "cover",
-			"url": "https://foundryvtt.s3.us-west-2.amazonaws.com/website-media-dev/user_1/asset/loot-tavern-banner-2020-11-04.jpg"
-		},
-		{
-			"type": "icon",
-			"url": "https://i.imgur.com/AbWrE4zh.jpg"
 		}
 	]
 }
