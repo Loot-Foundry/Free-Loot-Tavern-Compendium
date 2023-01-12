@@ -26,7 +26,7 @@
 	"minimumCoreVersion": "0.8.0",
 	"compatibleCoreVersion": "10",
 	"manifest": "https://raw.githubusercontent.com/MrVauxs/Free-Loot-Tavern-Compendium/main/module.json",
-	"download": "https://loottavern.com/Foundry%20packs/NEW/free-loot-tavern-compendium/free-loot-tavern-compendium.zip",
+	"download": "https://github.com/MrVauxs/Free-Loot-Tavern-Compendium/archive/refs/heads/main.zip",
 	"url": "https://www.patreon.com/LootTavern",
 	"packs": [
 		{
