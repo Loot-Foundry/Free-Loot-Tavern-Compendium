@@ -1,10 +1,21 @@
 {
-	"name": "free-loot-tavern-compendium",
+	"id": "free-loot-tavern-compendium",
 	"title": "Loot Tavern Free Item Compendium",
 	"description": "<p>A collection of ready-to-use beautifully illustrated Magic items from the Loot Tavern.</p><p>This compilation contains all 20+ themes from Loot Tavern, each containing <b>2 items</b> each.</p><div><p>Make browsing and sorting the themes easier with the <a href=\"https://foundryvtt.com/packages/compendium-folders\">Compendium Folders</a> and <a href=\"https://foundryvtt.com/packages/compendium-browser\">Compendium Browser</a> modules.</p>",
-	"systems": ["dnd5e"],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"minimum": "2.0.3"
+				}
+			}
+		]
+	},
 	"author": "Agginmad, MrVauxs",
-	"version": "2.1.1",
+	"version": "2.2.0",
 	"authors": [
 		{
 			"name": "Agginmad",
@@ -22,9 +33,11 @@
 			"reddit": "u/MrVauxs"
 		}
 	],
-	"manifestPlusVersion": "1.0.0",
-	"minimumCoreVersion": "0.8.0",
-	"compatibleCoreVersion": "10",
+	"manifestPlusVersion": "1.2.0",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "11"
+	},
 	"manifest": "https://raw.githubusercontent.com/MrVauxs/Free-Loot-Tavern-Compendium/main/module.json",
 	"download": "https://github.com/MrVauxs/Free-Loot-Tavern-Compendium/archive/refs/heads/main.zip",
 	"url": "https://www.patreon.com/LootTavern",
