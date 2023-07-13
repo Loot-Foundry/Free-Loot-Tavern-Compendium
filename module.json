@@ -48,8 +48,7 @@
 			"label": "Loot Tavern Magic Items",
 			"system": "dnd5e",
 			"path": "./compendiums/magic-items.db",
-			"entity": "Item",
-			"type": "Actor"
+			"type": "Item"
 		},
 		{
 			"name": "bestiary",
@@ -57,7 +56,6 @@
 			"label": "Loot Tavern Bestiary",
 			"system": "dnd5e",
 			"path": "./compendiums/bestiary.db",
-			"entity": "Actor",
 			"type": "Actor"
 		},
 		{
@@ -66,8 +64,7 @@
 			"label": "Loot Tavern Variant Items",
 			"system": "dnd5e",
 			"path": "./compendiums/variant-items.db",
-			"entity": "Item",
-			"type": "Actor"
+			"type": "Item"
 		}
 	]
 }
